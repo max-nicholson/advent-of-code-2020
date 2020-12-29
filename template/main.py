@@ -1,4 +1,9 @@
+import logging
 import os
+
+logging.basicConfig()
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
 
 
 def read():
